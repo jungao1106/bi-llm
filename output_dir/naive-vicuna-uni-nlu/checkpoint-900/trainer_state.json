@@ -1,0 +1,33 @@
+{
+  "best_metric": 0.5091027617454529,
+  "best_model_checkpoint": "/data/gj/Bi-Attention-HFTrainer/output_dir/naive-vicuna-bi-nlu/checkpoint-900",
+  "epoch": 1.1508951406649617,
+  "global_step": 900,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 0.64,
+      "learning_rate": 2.8081841432225065e-05,
+      "loss": 0.6074,
+      "step": 500
+    },
+    {
+      "epoch": 1.15,
+      "eval_accuracy": 0.83572,
+      "eval_loss": 0.5091027617454529,
+      "eval_precision": 0.8206617253763276,
+      "eval_recall": 0.8592,
+      "eval_runtime": 797.9733,
+      "eval_samples_per_second": 31.329,
+      "eval_steps_per_second": 0.98,
+      "step": 900
+    }
+  ],
+  "max_steps": 7820,
+  "num_train_epochs": 10,
+  "total_flos": 0.0,
+  "trial_name": null,
+  "trial_params": null
+}

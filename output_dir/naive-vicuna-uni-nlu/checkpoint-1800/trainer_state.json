@@ -1,0 +1,56 @@
+{
+  "best_metric": 0.4760628938674927,
+  "best_model_checkpoint": "/data/gj/Bi-Attention-HFTrainer/output_dir/naive-vicuna-bi-nlu/checkpoint-1800",
+  "epoch": 2.3017902813299234,
+  "global_step": 1800,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 0.64,
+      "learning_rate": 2.8081841432225065e-05,
+      "loss": 0.6074,
+      "step": 500
+    },
+    {
+      "epoch": 1.15,
+      "eval_accuracy": 0.83572,
+      "eval_loss": 0.5091027617454529,
+      "eval_precision": 0.8206617253763276,
+      "eval_recall": 0.8592,
+      "eval_runtime": 797.9733,
+      "eval_samples_per_second": 31.329,
+      "eval_steps_per_second": 0.98,
+      "step": 900
+    },
+    {
+      "epoch": 1.28,
+      "learning_rate": 2.616368286445013e-05,
+      "loss": 0.5188,
+      "step": 1000
+    },
+    {
+      "epoch": 1.92,
+      "learning_rate": 2.4245524296675193e-05,
+      "loss": 0.4911,
+      "step": 1500
+    },
+    {
+      "epoch": 2.3,
+      "eval_accuracy": 0.86144,
+      "eval_loss": 0.4760628938674927,
+      "eval_precision": 0.8637095475768797,
+      "eval_recall": 0.85832,
+      "eval_runtime": 798.7521,
+      "eval_samples_per_second": 31.299,
+      "eval_steps_per_second": 0.979,
+      "step": 1800
+    }
+  ],
+  "max_steps": 7820,
+  "num_train_epochs": 10,
+  "total_flos": 0.0,
+  "trial_name": null,
+  "trial_params": null
+}
